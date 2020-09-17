@@ -188,3 +188,38 @@ header {
 .target-text {
   padding: 50px;
 }
+
+/* footer */
+footer {
+  background: lightgrey;
+  padding: 40px;
+  line-height: 80px;
+}
+
+.footer-left h2{
+  vertical-align: middle;
+}
+
+.footer-right {
+  float: right;
+  text-align: right;
+}
+
+footer .footer-right select {
+  background-color: lightgrey;
+  color: #808080;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 115px;
+  margin: 0 20px;
+}
+
+footer .footer-right .visual {
+  padding: 25px 10px;
+}
+
+footer .footer-right .help {
+  display: block;
+
+}
