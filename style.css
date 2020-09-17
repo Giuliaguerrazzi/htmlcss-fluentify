@@ -27,6 +27,11 @@ h2 {
   margin-bottom: 10px;
 }
 
+p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -148,6 +153,7 @@ header {
 /* info */
 .info {
   padding: 40px 10px;
+  border-bottom: 1px solid grey;
 }
 
 .col-3 {
@@ -175,4 +181,10 @@ header {
   height: 2px;
   background: grey;
   margin: 25px auto;
+}
+
+/* target */
+.target-img,
+.target-text {
+  padding: 50px;
 }
