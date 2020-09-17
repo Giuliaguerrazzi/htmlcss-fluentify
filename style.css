@@ -146,6 +146,10 @@ header {
 }
 
 /* info */
+.info {
+  padding: 40px 10px;
+}
+
 .col-3 {
   width: calc(100% / 3);
   float: left;
@@ -155,4 +159,20 @@ header {
 
 .col-3 img {
   height: 150px;
+  margin-bottom: 20px;
+}
+
+.col-3 h3 {
+  font-size: 25px;
+  color: #7cbb02;
+  margin-bottom: 20px;
+}
+
+.col-3 h3::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: grey;
+  margin: 25px auto;
 }
