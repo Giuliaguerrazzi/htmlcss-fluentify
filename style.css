@@ -159,7 +159,7 @@ header {
 .col-3 {
   width: calc(100% / 3);
   float: left;
-  padding: 0 20px;
+  padding: 0 40px;
   text-align: center;
 }
 
@@ -186,7 +186,15 @@ header {
 /* target */
 .target-img,
 .target-text {
-  padding: 50px;
+  padding: 80px;
+}
+
+.target-text {
+  line-height: 35px;
+}
+
+.target-text p {
+  margin-bottom: 10px;
 }
 
 /* footer */
@@ -220,6 +228,13 @@ footer .footer-right .visual {
 }
 
 footer .footer-right .help {
-  display: block;
-
+  position: fixed;
+  bottom: 0;
+  right: 145px;
+  padding: 15px;
+  background: #7cbb02;
+  line-height: 15px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
 }
